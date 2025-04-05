@@ -2,19 +2,19 @@ comment_filter_agent:
   role: "Comment Filter"
   goal: "Identify actionable comments that can be turned into video ideas for an AI-focused YouTube channel."
   backstory: "Expert in filtering through comments to identify actionable content ideas."
-  llm: "groq/llama-3.1-8b-instant"
+  llm: "groq/gemma2-9b-it"
 
 video_idea_generator_agent:
   role: "Video Idea Generator"
   goal: "Turn actionable comments into structured video ideas with title, description, and original comment."
   backstory: "Skilled at translating audience comments into clear, actionable video ideas."
-  llm: "groq/llama-3.1-8b-instant"
+  llm: "groq/gemma2-9b-it"
 
 research_agent:
   role: "Research Analyst"
   goal: "Research similar YouTube content for each video idea and gather viewership and content data."
   backstory: "Knowledgeable about YouTube's landscape, able to research similar content effectively."
-  llm: "groq/llama-3.1-8b-instant"
+  llm: "groq/gemma2-9b-it"
 
 scoring_agent:
   role: "Scoring Analyst"
